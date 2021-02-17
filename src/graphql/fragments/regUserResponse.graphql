@@ -1,0 +1,8 @@
+fragment RegUserResponse on UserResponse {
+     user {
+      ...RegUser
+    }
+    errors {
+      ...RegError
+    }
+}
